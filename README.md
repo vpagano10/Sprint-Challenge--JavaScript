@@ -29,14 +29,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+    - Map transforms each object in an array and returns a new array of the same size but transformed thw way you asked it to. Filter applies what you ask it to in a function and just gives you the items that fit the filter, it does not give you a new array it just modifies the original instead.
 
 2. What is the difference between a function and a method?
+    - A function and method are basically the same thing, but a method is a function that is inside of a class.
 
 3. What is closure?
+    - Closure is when a larger function contains other functions within its scope and closure gives the inner functions access to the outer functions items/contents.
 
 4. Describe the four rules of the 'this' keyword.
+    - Window binding - without anthing for this to be incontext to, it is bound to the window unless using strict. Implicit binding - when a function is invoked this is used to reference what is left of the ".". Explicit binding - you are explicity telling javascript to set this to point to a certain value by using call, apply or bind and it is invoking the function immediately. New binding - constructs a new object and this points to the new object.
 
 5. Why do we need super() in an extended class?
+    - Super() basically tells the class that is being extended what we are going to be using within the new class and that it should be included in the extension.
 
 ## Project Set up
 
